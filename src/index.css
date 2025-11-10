@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container-app {
+  width: 100vw;
+  height: 100vh;
+  padding: 100px;
+  background-color: #1f1f1f;
+}
+
+.container {
+  width: 1156px;
+  height: 537px;
+  background-color: black;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  display: flex;
+  width: 384px;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+
+.titulo h1 {
+  font-size: 55px;
+  letter-spacing: 1.1;
+}
+
+.normal {
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+.github-name {
+  letter-spacing: -3px;
+}
+
+.titulo img {
+  width: 58px;
+  height: 58px;
+}
+
+
+
+.form-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+}
+
+input {
+  width: 441px;
+  padding: 0 14px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.form-search button {
+  width: 62px;
+  height: 62px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #005cff;
+}
+
+.form-search button > img {
+  width: 25px;
+}
